@@ -6,7 +6,7 @@
   <link href="https://jianghuchengphilip.github.io/atom.xml" rel="self"/>
   
   <link href="https://jianghuchengphilip.github.io/"/>
-  <updated>2022-01-24T13:38:38.382Z</updated>
+  <updated>2022-04-22T16:09:40.599Z</updated>
   <id>https://jianghuchengphilip.github.io/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>week1-2单变量线性回归</title>
+    <link href="https://jianghuchengphilip.github.io/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/22/week1-2%E5%8D%95%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html"/>
+    <id>https://jianghuchengphilip.github.io/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/22/week1-2%E5%8D%95%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html</id>
+    <published>2022-04-22T15:20:19.000Z</published>
+    <updated>2022-04-22T16:09:40.599Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="模型表示"><a href="#模型表示" class="headerlink" title="模型表示"></a>模型表示</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Model Representation.png" /></a></p>- 单变量线性回归模型：ℎ𝜃(𝑥) = 𝜃0 + 𝜃1𝑥<h2 id="代价函数"><a href="#代价函数" class="headerlink" title="代价函数"></a>代价函数</h2><ul><li><p>建模误差：模型所预测的值与训练集中实际值之间的差距</p></li><li><p>代价函数：</p><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Cost Function.png" /></a></p></li><li><p>思想：量化出模型预测值与真实值直接的差距。所以目的是通过该函数去找𝜃0, 𝜃1使𝐽(𝜃0, 𝜃1)最小。</p></li></ul><h2 id="梯度下降"><a href="#梯度下降" class="headerlink" title="梯度下降"></a>梯度下降</h2><ul><li><p>定义：一种求函数最小值的算法，可以用这个方法求代价函数</p></li><li><p>思想：</p><ol><li><p>随机选择一个参数的组合(𝜃0, 𝜃1, . . . . . . , 𝜃𝑛 )</p></li><li><p>计算代价函数𝐽(𝜃0, 𝜃1)</p></li><li><p>寻找下一个能让代价函数值下降最多的参数组合（更新参数）</p></li><li><p>持续直到一个局部最小值or全局最小值</p><p>Tips：选择不同的初始参数组 合，可能会找到不同的局部最小值</p></li></ol><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Gradient Descent.png" /></a></p></li><li><p>更新规则</p><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Gradient Descent algorithm.png" /></a></p>Tips：a.同时更新更新𝜃0和𝜃1，因为参数变动会影响𝐽(𝜃0, 𝜃1)值<p>b.为啥求导？<a href="https://zhuanlan.zhihu.com/p/35795195">因为沿着负梯度方向代价函数值下降最多(链接用泰勒公式证明了)</a>。</p><p>c. 𝑎是学习率，决定了我们沿着能让代价函数下降程度最大的方向向下迈出的步子有多大</p></li><li><p>学习率a大小影响</p><p>a.太小：需要很多步才能到达最低点，太慢，需要很多步。</p><p>b.太大：会导致无法收敛，甚至发散。</p></li></ul><h2 id="批量梯度下降"><a href="#批量梯度下降" class="headerlink" title="批量梯度下降"></a>批量梯度下降</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/GradientDescentForLinearRegression.png" /></a></p><p>Tips：批量梯度下降指：在梯度下降的每一步中，我们都用到了 所有的训练样本。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;模型表示&quot;&gt;&lt;a href=&quot;#模型表示&quot; class=&quot;headerlink&quot; title=&quot;模型表示&quot;&gt;&lt;/a&gt;模型表示&lt;/h2&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://philipjhc.us/&quot;&gt;&lt;img width=&quot;80%&quot;</summary>
+      
+    
+    
+    
+    <category term="机器学习" scheme="https://jianghuchengphilip.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="机器学习" scheme="https://jianghuchengphilip.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Machine Learning" scheme="https://jianghuchengphilip.github.io/tags/Machine-Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>week1-1监督学习与无监督学习</title>
+    <link href="https://jianghuchengphilip.github.io/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/22/week1-1%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.html"/>
+    <id>https://jianghuchengphilip.github.io/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/22/week1-1%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.html</id>
+    <published>2022-04-22T15:04:55.000Z</published>
+    <updated>2022-04-22T15:19:51.889Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h2><ul><li>思想：数据集每个样本都有相对应的“正确答案”，根据这些样本做出预测。</li><li>回归问题：将输入变量映射到某个连续的函数。</li><li>分类问题：将输入变量映射到离散类别中。</li></ul><h2 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h2><ul><li>思想：数据集没有基于预测结果的反馈，需要用数据中变量之间的关系推导出结构。</li><li>聚类算法</li><li>非聚类算法</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;监督学习&quot;&gt;&lt;a href=&quot;#监督学习&quot; class=&quot;headerlink&quot; title=&quot;监督学习&quot;&gt;&lt;/a&gt;监督学习&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;思想：数据集每个样本都有相对应的“正确答案”，根据这些样本做出预测。&lt;/li&gt;
+&lt;li&gt;回归问题：将输入变量映射</summary>
+      
+    
+    
+    
+    <category term="机器学习" scheme="https://jianghuchengphilip.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="机器学习" scheme="https://jianghuchengphilip.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Machine Learning" scheme="https://jianghuchengphilip.github.io/tags/Machine-Learning/"/>
+    
+  </entry>
   
   <entry>
     <title>Philip教你NFT一键上链Opensea</title>
@@ -73,7 +127,7 @@
     <link href="https://jianghuchengphilip.github.io/NFT/2022/01/13/Generate-NFT%E8%BD%AF%E4%BB%B6%E6%95%99%E5%AD%A6.html"/>
     <id>https://jianghuchengphilip.github.io/NFT/2022/01/13/Generate-NFT%E8%BD%AF%E4%BB%B6%E6%95%99%E5%AD%A6.html</id>
     <published>2022-01-13T08:40:06.000Z</published>
-    <updated>2022-01-24T13:22:53.361Z</updated>
+    <updated>2022-04-22T15:03:07.043Z</updated>
     
     <content type="html"><![CDATA[<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/world-cup-1.gif" /></a></p><h2 id="Generate-NFT软件教学"><a href="#Generate-NFT软件教学" class="headerlink" title="Generate-NFT软件教学"></a>Generate-NFT软件教学</h2><iframe width=800 height=500  src="//player.bilibili.com/player.html?aid=422904306&bvid=BV1g3411e7Mx&cid=479411249&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h6 id="Generate-NFT软件Github仓库地址：https-github-com-Jianghuchengphilip-Generate-NFT-releases-tag-Generate-NFT-v1-0"><a href="#Generate-NFT软件Github仓库地址：https-github-com-Jianghuchengphilip-Generate-NFT-releases-tag-Generate-NFT-v1-0" class="headerlink" title="Generate-NFT软件Github仓库地址：https://github.com/Jianghuchengphilip/Generate-NFT/releases/tag/Generate-NFT-v1.0"></a>Generate-NFT软件Github仓库地址：<a href="https://github.com/Jianghuchengphilip/Generate-NFT/releases/tag/Generate-NFT-v1.0">https://github.com/Jianghuchengphilip/Generate-NFT/releases/tag/Generate-NFT-v1.0</a></h6><h6 id="百度网盘：链接：https-pan-baidu-com-s-1ASOAxi8SYEVf-z5jrWSz8g-提取码：wgt7"><a href="#百度网盘：链接：https-pan-baidu-com-s-1ASOAxi8SYEVf-z5jrWSz8g-提取码：wgt7" class="headerlink" title="百度网盘：链接：https://pan.baidu.com/s/1ASOAxi8SYEVf_z5jrWSz8g 提取码：wgt7"></a>百度网盘：链接：<a href="https://pan.baidu.com/s/1ASOAxi8SYEVf_z5jrWSz8g">https://pan.baidu.com/s/1ASOAxi8SYEVf_z5jrWSz8g</a> 提取码：wgt7</h6>]]></content>
     
