@@ -1,188 +1,209 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
+<search>
+  <entry>
+    <title>Generate-NFT软件教学</title>
+    <url>/NFT/2022/01/13/Generate-NFT%E8%BD%AF%E4%BB%B6%E6%95%99%E5%AD%A6.html</url>
+    <content><![CDATA[<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/world-cup-1.gif" /></a></p>
+
+<h2 id="Generate-NFT软件教学"><a href="#Generate-NFT软件教学" class="headerlink" title="Generate-NFT软件教学"></a>Generate-NFT软件教学</h2><iframe width=800 height=500  src="//player.bilibili.com/player.html?aid=422904306&bvid=BV1g3411e7Mx&cid=479411249&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<h6 id="Generate-NFT软件Github仓库地址：https-github-com-Jianghuchengphilip-Generate-NFT-releases-tag-Generate-NFT-v1-0"><a href="#Generate-NFT软件Github仓库地址：https-github-com-Jianghuchengphilip-Generate-NFT-releases-tag-Generate-NFT-v1-0" class="headerlink" title="Generate-NFT软件Github仓库地址：https://github.com/Jianghuchengphilip/Generate-NFT/releases/tag/Generate-NFT-v1.0"></a>Generate-NFT软件Github仓库地址：<a href="https://github.com/Jianghuchengphilip/Generate-NFT/releases/tag/Generate-NFT-v1.0">https://github.com/Jianghuchengphilip/Generate-NFT/releases/tag/Generate-NFT-v1.0</a></h6><h6 id="百度网盘：链接：https-pan-baidu-com-s-1ASOAxi8SYEVf-z5jrWSz8g-提取码：wgt7"><a href="#百度网盘：链接：https-pan-baidu-com-s-1ASOAxi8SYEVf-z5jrWSz8g-提取码：wgt7" class="headerlink" title="百度网盘：链接：https://pan.baidu.com/s/1ASOAxi8SYEVf_z5jrWSz8g 提取码：wgt7"></a>百度网盘：链接：<a href="https://pan.baidu.com/s/1ASOAxi8SYEVf_z5jrWSz8g">https://pan.baidu.com/s/1ASOAxi8SYEVf_z5jrWSz8g</a> 提取码：wgt7</h6>]]></content>
+      <categories>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>week1-1监督学习与无监督学习</title>
+    <url>/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/22/week1-1%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.html</url>
+    <content><![CDATA[<h2 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h2><ul>
+<li>思想：数据集每个样本都有相对应的“正确答案”，根据这些样本做出预测。</li>
+<li>回归问题：将输入变量映射到某个连续的函数。</li>
+<li>分类问题：将输入变量映射到离散类别中。</li>
+</ul>
+<h2 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h2><ul>
+<li>思想：数据集没有基于预测结果的反馈，需要用数据中变量之间的关系推导出结构。</li>
+<li>聚类算法</li>
+<li>非聚类算法</li>
+</ul>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>机器学习</tag>
+        <tag>Machine Learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>week1-2单变量线性回归</title>
+    <url>/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/22/week1-2%E5%8D%95%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html</url>
+    <content><![CDATA[<h2 id="模型表示"><a href="#模型表示" class="headerlink" title="模型表示"></a>模型表示</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Model Representation.png" /></a></p>
+
+<ul>
+<li>单变量线性回归模型：ℎ𝜃(𝑥) = 𝜃0 + 𝜃1𝑥</li>
+</ul>
+<h2 id="代价函数"><a href="#代价函数" class="headerlink" title="代价函数"></a>代价函数</h2><ul>
+<li><p>建模误差：模型所预测的值与训练集中实际值之间的差距</p>
+</li>
+<li><p>代价函数：</p>
+<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Cost Function.png" /></a></p></li>
+<li><p>思想：量化出模型预测值与真实值直接的差距。所以目的是通过该函数去找𝜃0, 𝜃1使𝐽(𝜃0, 𝜃1)最小。</p>
+</li>
+</ul>
+<h2 id="梯度下降"><a href="#梯度下降" class="headerlink" title="梯度下降"></a>梯度下降</h2><ul>
+<li><p>定义：一种求函数最小值的算法，可以用这个方法求代价函数</p>
+</li>
+<li><p>思想：</p>
+<ol>
+<li><p>随机选择一个参数的组合(𝜃0, 𝜃1, . . . . . . , 𝜃𝑛 )</p>
+</li>
+<li><p>计算代价函数𝐽(𝜃0, 𝜃1)</p>
+</li>
+<li><p>寻找下一个能让代价函数值下降最多的参数组合（更新参数）</p>
+</li>
+<li><p>持续直到一个局部最小值or全局最小值</p>
+<p>Tips：选择不同的初始参数组 合，可能会找到不同的局部最小值</p>
+</li>
+</ol>
+<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Gradient Descent.png" /></a></p></li>
+<li><p>更新规则</p>
+<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Gradient Descent algorithm.png" /></a></p>
+Tips：
+
+<p>a.同时更新更新𝜃0和𝜃1，因为参数变动会影响𝐽(𝜃0, 𝜃1)值</p>
+<p>b.为啥求导？<a href="https://zhuanlan.zhihu.com/p/35795195">因为沿着负梯度方向代价函数值下降最多(链接用泰勒公式证明了)</a>。</p>
+<p>c. 𝑎是学习率，决定了我们沿着能让代价函数下降程度最大的方向向下迈出的步子有多大</p>
+</li>
+<li><p>学习率a大小影响</p>
+<p>a.太小：需要很多步才能到达最低点，太慢，需要很多步。</p>
+<p>b.太大：会导致无法收敛，甚至发散。</p>
+</li>
+</ul>
+<h2 id="批量梯度下降"><a href="#批量梯度下降" class="headerlink" title="批量梯度下降"></a>批量梯度下降</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/GradientDescentForLinearRegression.png" /></a></p>
+
+<p>Tips：批量梯度下降指：在梯度下降的每一步中，我们都用到了所有的训练样本。</p>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>机器学习</tag>
+        <tag>Machine Learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Philip教你NFT一键上链Opensea</title>
+    <url>/NFT/2022/01/24/Philip%E6%95%99%E4%BD%A0NFT%E4%B8%80%E9%94%AE%E4%B8%8A%E9%93%BEOpensea.html</url>
+    <content><![CDATA[<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/world-cup-4.gif" /></a></p>
+
+<h2 id="Philip教你NFT一键上链Opensea"><a href="#Philip教你NFT一键上链Opensea" class="headerlink" title="Philip教你NFT一键上链Opensea"></a>Philip教你NFT一键上链Opensea</h2><iframe width=800 height=500 src="//player.bilibili.com/player.html?aid=210920790&bvid=BV1pa411m7YH&cid=491429310&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<h6 id="Generate-NFT-v2-3-Github仓库地址："><a href="#Generate-NFT-v2-3-Github仓库地址：" class="headerlink" title="Generate-NFT v2.3 Github仓库地址："></a>Generate-NFT v2.3 Github仓库地址：</h6><p><a href="https://github.com/Jianghuchengphilip/Generate-NFT/tree/Generate-NFT-v2.3">https://github.com/Jianghuchengphilip/Generate-NFT/tree/Generate-NFT-v2.3</a></p>
+<h6 id="nft-contract-main-Github仓库地址："><a href="#nft-contract-main-Github仓库地址：" class="headerlink" title="nft-contract-main Github仓库地址："></a>nft-contract-main Github仓库地址：</h6><p><a href="https://github.com/Jianghuchengphilip/nft-contract-main">https://github.com/Jianghuchengphilip/nft-contract-main</a></p>
+<h6 id="remix-ethereum合约地址："><a href="#remix-ethereum合约地址：" class="headerlink" title="remix.ethereum合约地址："></a>remix.ethereum合约地址：</h6><p><a href="https://remix.ethereum.org/">https://remix.ethereum.org/</a></p>
+<h6 id="opensea测试地址："><a href="#opensea测试地址：" class="headerlink" title="opensea测试地址："></a>opensea测试地址：</h6><p><a href="https://testnets.opensea.io/">https://testnets.opensea.io/</a></p>
+<h6 id="pinata（IPFS视频中所说类似图床）地址："><a href="#pinata（IPFS视频中所说类似图床）地址：" class="headerlink" title="pinata（IPFS视频中所说类似图床）地址："></a>pinata（IPFS视频中所说类似图床）地址：</h6><p><a href="https://app.pinata.cloud/pinmanager">https://app.pinata.cloud/pinmanager</a></p>
+<h6 id="polygon测试撸币地址："><a href="#polygon测试撸币地址：" class="headerlink" title="polygon测试撸币地址："></a>polygon测试撸币地址：</h6><p><a href="https://faucet.polygon.technology/">https://faucet.polygon.technology/</a></p>
+<h6 id="MATIC测试区块链网络：（小狐狸配置-gt-设置-gt-网络-gt-添加网络）"><a href="#MATIC测试区块链网络：（小狐狸配置-gt-设置-gt-网络-gt-添加网络）" class="headerlink" title="MATIC测试区块链网络：（小狐狸配置-&gt;设置-&gt;网络-&gt;添加网络）"></a>MATIC测试区块链网络：（小狐狸配置-&gt;设置-&gt;网络-&gt;添加网络）</h6><blockquote>
+<h6 id="网络名称-Mumbai-TestNet"><a href="#网络名称-Mumbai-TestNet" class="headerlink" title="网络名称: Mumbai TestNet"></a>网络名称: Mumbai TestNet</h6><h6 id="新增-RPC-URL-https-rpc-mumbai-maticvigil-com"><a href="#新增-RPC-URL-https-rpc-mumbai-maticvigil-com" class="headerlink" title="新增 RPC URL: https://rpc-mumbai.maticvigil.com/"></a>新增 RPC URL: <a href="https://rpc-mumbai.maticvigil.com/">https://rpc-mumbai.maticvigil.com/</a></h6><h6 id="链-ID-80001"><a href="#链-ID-80001" class="headerlink" title="链 ID: 80001"></a>链 ID: 80001</h6><h6 id="Currency-Symbol-MATIC"><a href="#Currency-Symbol-MATIC" class="headerlink" title="Currency Symbol: MATIC"></a>Currency Symbol: MATIC</h6><h6 id="区块浏览器-https-mumbai-explorer-matic-today"><a href="#区块浏览器-https-mumbai-explorer-matic-today" class="headerlink" title="区块浏览器: https://mumbai-explorer.matic.today/"></a>区块浏览器: <a href="https://mumbai-explorer.matic.today/">https://mumbai-explorer.matic.today/</a></h6></blockquote>
+]]></content>
+      <categories>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>week2-1多变量线性回归</title>
+    <url>/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/28/week2-1%E5%A4%9A%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html</url>
+    <content><![CDATA[<h2 id="多维特征"><a href="#多维特征" class="headerlink" title="多维特征"></a>多维特征</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Multiple Features.png" /></a></p>
+
+<ul>
+<li>多变量线性回归模型：</li>
+</ul>
+<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Multiple Features Model.png" /></a></p>
+
+<h2 id="多变量代价函数"><a href="#多变量代价函数" class="headerlink" title="多变量代价函数"></a>多变量代价函数</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Multiple Cost Function.png" /></a></p>
+
+<h2 id="多变量梯度下降"><a href="#多变量梯度下降" class="headerlink" title="多变量梯度下降"></a>多变量梯度下降</h2><ul>
+<li><p>定义：一种求函数最小值的算法，可以用这个方法求代价函数</p>
+</li>
+<li><p>更新规则：</p>
+</li>
+</ul>
+<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Gradient Descent for Multiple Variables.png" /></a></p>
+
+<h2 id="数据集预处理之特征缩放"><a href="#数据集预处理之特征缩放" class="headerlink" title="数据集预处理之特征缩放"></a>数据集预处理之特征缩放</h2><ul>
+<li><p>作用：加快梯度下降法的收敛速度; 统一特征的权重&amp;提升模型准确性</p>
+</li>
+<li><p>方法:</p>
+</li>
+</ul>
+<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Feature Scaling.png" /></a></p>
+
+<h2 id="机器学习玄学之学习率"><a href="#机器学习玄学之学习率" class="headerlink" title="机器学习玄学之学习率"></a>机器学习玄学之学习率</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Learning Rate.png" /></a></p>
+
+<ul>
+<li>学习率a<ul>
+<li><p>a小，收敛所需epoch大，也有可能收敛至局部极值点，找不到最优解。</p>
+</li>
+<li><p>a大，可能收敛不了，跳过最优值。</p>
+<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/a More Big.png" /></a></p></li>
+</ul>
+</li>
+</ul>
+<h2 id="特征和多项式回归"><a href="#特征和多项式回归" class="headerlink" title="特征和多项式回归"></a>特征和多项式回归</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Features and Polynomial Regression.png" /></a></p>
   
-  
-    
-    <entry>
-      <title>week2-1多变量线性回归</title>
-      <link href="/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/28/week2-1%E5%A4%9A%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html"/>
-      <url>/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/28/week2-1%E5%A4%9A%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="多维特征"><a href="#多维特征" class="headerlink" title="多维特征"></a>多维特征</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Multiple Features.png" /></a></p><ul><li>多变量线性回归模型：</li></ul><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Multiple Features Model.png" /></a></p><h2 id="多变量代价函数"><a href="#多变量代价函数" class="headerlink" title="多变量代价函数"></a>多变量代价函数</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Multiple Cost Function.png" /></a></p><h2 id="多变量梯度下降"><a href="#多变量梯度下降" class="headerlink" title="多变量梯度下降"></a>多变量梯度下降</h2><ul><li><p>定义：一种求函数最小值的算法，可以用这个方法求代价函数</p></li><li><p>更新规则：</p></li></ul><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Gradient Descent for Multiple Variables.png" /></a></p><h2 id="数据集预处理之特征缩放"><a href="#数据集预处理之特征缩放" class="headerlink" title="数据集预处理之特征缩放"></a>数据集预处理之特征缩放</h2><ul><li><p>作用：加快梯度下降法的收敛速度; 统一特征的权重&amp;提升模型准确性</p></li><li><p>方法:</p></li></ul><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Feature Scaling.png" /></a></p><h2 id="机器学习玄学之学习率"><a href="#机器学习玄学之学习率" class="headerlink" title="机器学习玄学之学习率"></a>机器学习玄学之学习率</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Learning Rate.png" /></a></p><ul><li>学习率a<ul><li><p>a小，收敛所需epoch大，也有可能收敛至局部极值点，找不到最优解。</p></li><li><p>a大，可能收敛不了，跳过最优值。</p><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/a More Big.png" /></a></p></li></ul></li></ul><h2 id="特征和多项式回归"><a href="#特征和多项式回归" class="headerlink" title="特征和多项式回归"></a>特征和多项式回归</h2><pre><code>&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://philipjhc.us/&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/Features and Polynomial Regression.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</code></pre><h2 id="与梯度下降算法适用条件不同算法-正规方程"><a href="#与梯度下降算法适用条件不同算法-正规方程" class="headerlink" title="与梯度下降算法适用条件不同算法-正规方程"></a>与梯度下降算法适用条件不同算法-正规方程</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Normal Equation.png" /></a></p><h2 id="梯度下降与正规方程的比较"><a href="#梯度下降与正规方程的比较" class="headerlink" title="梯度下降与正规方程的比较"></a>梯度下降与正规方程的比较</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Normal Equation And Normal Equation.png" /></a></p><h2 id="推导拓展（推导出正规方程公式）："><a href="#推导拓展（推导出正规方程公式）：" class="headerlink" title="推导拓展（推导出正规方程公式）："></a>推导拓展（推导出正规方程公式）：</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Normal Equation Deduction.png" /></a></p>]]></content>
-      
-      
+<h2 id="与梯度下降算法适用条件不同算法-正规方程"><a href="#与梯度下降算法适用条件不同算法-正规方程" class="headerlink" title="与梯度下降算法适用条件不同算法-正规方程"></a>与梯度下降算法适用条件不同算法-正规方程</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Normal Equation.png" /></a></p>
+
+<h2 id="梯度下降与正规方程的比较"><a href="#梯度下降与正规方程的比较" class="headerlink" title="梯度下降与正规方程的比较"></a>梯度下降与正规方程的比较</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Normal Equation And Normal Equation.png" /></a></p>
+
+<h2 id="推导拓展（推导出正规方程公式）："><a href="#推导拓展（推导出正规方程公式）：" class="headerlink" title="推导拓展（推导出正规方程公式）："></a>推导拓展（推导出正规方程公式）：</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Normal Equation Deduction.png" /></a></p>
+
+
+
+
+]]></content>
       <categories>
-          
-          <category> 机器学习 </category>
-          
+        <category>机器学习</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 机器学习 </tag>
-            
-            <tag> Machine Learning </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>week1-2单变量线性回归</title>
-      <link href="/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/22/week1-2%E5%8D%95%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html"/>
-      <url>/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/22/week1-2%E5%8D%95%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="模型表示"><a href="#模型表示" class="headerlink" title="模型表示"></a>模型表示</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Model Representation.png" /></a></p><ul><li>单变量线性回归模型：ℎ𝜃(𝑥) = 𝜃0 + 𝜃1𝑥</li></ul><h2 id="代价函数"><a href="#代价函数" class="headerlink" title="代价函数"></a>代价函数</h2><ul><li><p>建模误差：模型所预测的值与训练集中实际值之间的差距</p></li><li><p>代价函数：</p><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Cost Function.png" /></a></p></li><li><p>思想：量化出模型预测值与真实值直接的差距。所以目的是通过该函数去找𝜃0, 𝜃1使𝐽(𝜃0, 𝜃1)最小。</p></li></ul><h2 id="梯度下降"><a href="#梯度下降" class="headerlink" title="梯度下降"></a>梯度下降</h2><ul><li><p>定义：一种求函数最小值的算法，可以用这个方法求代价函数</p></li><li><p>思想：</p><ol><li><p>随机选择一个参数的组合(𝜃0, 𝜃1, . . . . . . , 𝜃𝑛 )</p></li><li><p>计算代价函数𝐽(𝜃0, 𝜃1)</p></li><li><p>寻找下一个能让代价函数值下降最多的参数组合（更新参数）</p></li><li><p>持续直到一个局部最小值or全局最小值</p><p>Tips：选择不同的初始参数组 合，可能会找到不同的局部最小值</p></li></ol><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Gradient Descent.png" /></a></p></li><li><p>更新规则</p><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/Gradient Descent algorithm.png" /></a></p>Tips：<p>a.同时更新更新𝜃0和𝜃1，因为参数变动会影响𝐽(𝜃0, 𝜃1)值</p><p>b.为啥求导？<a href="https://zhuanlan.zhihu.com/p/35795195">因为沿着负梯度方向代价函数值下降最多(链接用泰勒公式证明了)</a>。</p><p>c. 𝑎是学习率，决定了我们沿着能让代价函数下降程度最大的方向向下迈出的步子有多大</p></li><li><p>学习率a大小影响</p><p>a.太小：需要很多步才能到达最低点，太慢，需要很多步。</p><p>b.太大：会导致无法收敛，甚至发散。</p></li></ul><h2 id="批量梯度下降"><a href="#批量梯度下降" class="headerlink" title="批量梯度下降"></a>批量梯度下降</h2><p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/GradientDescentForLinearRegression.png" /></a></p><p>Tips：批量梯度下降指：在梯度下降的每一步中，我们都用到了所有的训练样本。</p>]]></content>
-      
-      
+      <tags>
+        <tag>机器学习</tag>
+        <tag>Machine Learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>保姆级教你如何用Python批量生产NFT(可设置稀有度版)</title>
+    <url>/NFT/2022/01/13/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E7%94%A8Python%E6%89%B9%E9%87%8F%E7%94%9F%E4%BA%A7NFT-%E5%8F%AF%E8%AE%BE%E7%BD%AE%E7%A8%80%E6%9C%89%E5%BA%A6%E7%89%88.html</url>
+    <content><![CDATA[<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/world-cup-2.gif" /></a></p>
+
+<h2 id="保姆级教你如何用Python批量生产NFT-可设置稀有度版"><a href="#保姆级教你如何用Python批量生产NFT-可设置稀有度版" class="headerlink" title="保姆级教你如何用Python批量生产NFT(可设置稀有度版)"></a>保姆级教你如何用Python批量生产NFT(可设置稀有度版)</h2><iframe width=800 height=500 src="//player.bilibili.com/player.html?aid=977996743&bvid=BV1C44y1j7xg&cid=477831649&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<h6 id="Generate-NFT-Github仓库地址：https-github-com-Jianghuchengphilip-Generate-NFT"><a href="#Generate-NFT-Github仓库地址：https-github-com-Jianghuchengphilip-Generate-NFT" class="headerlink" title="Generate-NFT Github仓库地址：https://github.com/Jianghuchengphilip/Generate-NFT"></a>Generate-NFT Github仓库地址：<a href="https://github.com/Jianghuchengphilip/Generate-NFT">https://github.com/Jianghuchengphilip/Generate-NFT</a></h6><h6 id="百度云盘分享网址：https-pan-baidu-com-s-1oNR2Psy0heU8yIPTt7w2qQ-提取码：ntz2"><a href="#百度云盘分享网址：https-pan-baidu-com-s-1oNR2Psy0heU8yIPTt7w2qQ-提取码：ntz2" class="headerlink" title="百度云盘分享网址：https://pan.baidu.com/s/1oNR2Psy0heU8yIPTt7w2qQ    提取码：ntz2"></a>百度云盘分享网址：<a href="https://pan.baidu.com/s/1oNR2Psy0heU8yIPTt7w2qQ">https://pan.baidu.com/s/1oNR2Psy0heU8yIPTt7w2qQ</a>    提取码：ntz2</h6>]]></content>
       <categories>
-          
-          <category> 机器学习 </category>
-          
+        <category>NFT</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 机器学习 </tag>
-            
-            <tag> Machine Learning </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>week1-1监督学习与无监督学习</title>
-      <link href="/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/22/week1-1%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.html"/>
-      <url>/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2022/04/22/week1-1%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h2><ul><li>思想：数据集每个样本都有相对应的“正确答案”，根据这些样本做出预测。</li><li>回归问题：将输入变量映射到某个连续的函数。</li><li>分类问题：将输入变量映射到离散类别中。</li></ul><h2 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h2><ul><li>思想：数据集没有基于预测结果的反馈，需要用数据中变量之间的关系推导出结构。</li><li>聚类算法</li><li>非聚类算法</li></ul>]]></content>
-      
-      
+      <tags>
+        <tag>NFT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>通过机器学习世界名画制作NFT朋克头像</title>
+    <url>/NFT/2022/01/13/%E9%80%9A%E8%BF%87%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%96%E7%95%8C%E5%90%8D%E7%94%BB%E5%88%B6%E4%BD%9CNFT%E6%9C%8B%E5%85%8B%E5%A4%B4%E5%83%8F.html</url>
+    <content><![CDATA[<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/world-cup-3.gif" /></a></p>
+
+<h2 id="通过机器学习世界名画制作NFT朋克头像"><a href="#通过机器学习世界名画制作NFT朋克头像" class="headerlink" title="通过机器学习世界名画制作NFT朋克头像"></a>通过机器学习世界名画制作NFT朋克头像</h2><iframe width=800 height=500 src="//player.bilibili.com/player.html?aid=633197040&bvid=BV1db4y1y7TB&cid=414373305&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<h6 id="Master-Art-Punk-Github仓库地址：https-github-com-Jianghuchengphilip-Master-Art-Punk"><a href="#Master-Art-Punk-Github仓库地址：https-github-com-Jianghuchengphilip-Master-Art-Punk" class="headerlink" title="Master-Art-Punk Github仓库地址：https://github.com/Jianghuchengphilip/Master-Art-Punk"></a>Master-Art-Punk Github仓库地址：<a href="https://github.com/Jianghuchengphilip/Master-Art-Punk">https://github.com/Jianghuchengphilip/Master-Art-Punk</a></h6>]]></content>
       <categories>
-          
-          <category> 机器学习 </category>
-          
+        <category>NFT</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 机器学习 </tag>
-            
-            <tag> Machine Learning </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Philip教你NFT一键上链Opensea</title>
-      <link href="/NFT/2022/01/24/Philip%E6%95%99%E4%BD%A0NFT%E4%B8%80%E9%94%AE%E4%B8%8A%E9%93%BEOpensea.html"/>
-      <url>/NFT/2022/01/24/Philip%E6%95%99%E4%BD%A0NFT%E4%B8%80%E9%94%AE%E4%B8%8A%E9%93%BEOpensea.html</url>
-      
-        <content type="html"><![CDATA[<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/world-cup-4.gif" /></a></p><h2 id="Philip教你NFT一键上链Opensea"><a href="#Philip教你NFT一键上链Opensea" class="headerlink" title="Philip教你NFT一键上链Opensea"></a>Philip教你NFT一键上链Opensea</h2><iframe width=800 height=500 src="//player.bilibili.com/player.html?aid=210920790&bvid=BV1pa411m7YH&cid=491429310&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h6 id="Generate-NFT-v2-3-Github仓库地址："><a href="#Generate-NFT-v2-3-Github仓库地址：" class="headerlink" title="Generate-NFT v2.3 Github仓库地址："></a>Generate-NFT v2.3 Github仓库地址：</h6><p><a href="https://github.com/Jianghuchengphilip/Generate-NFT/tree/Generate-NFT-v2.3">https://github.com/Jianghuchengphilip/Generate-NFT/tree/Generate-NFT-v2.3</a></p><h6 id="nft-contract-main-Github仓库地址："><a href="#nft-contract-main-Github仓库地址：" class="headerlink" title="nft-contract-main Github仓库地址："></a>nft-contract-main Github仓库地址：</h6><p><a href="https://github.com/Jianghuchengphilip/nft-contract-main">https://github.com/Jianghuchengphilip/nft-contract-main</a></p><h6 id="remix-ethereum合约地址："><a href="#remix-ethereum合约地址：" class="headerlink" title="remix.ethereum合约地址："></a>remix.ethereum合约地址：</h6><p><a href="https://remix.ethereum.org/">https://remix.ethereum.org/</a></p><h6 id="opensea测试地址："><a href="#opensea测试地址：" class="headerlink" title="opensea测试地址："></a>opensea测试地址：</h6><p><a href="https://testnets.opensea.io/">https://testnets.opensea.io/</a></p><h6 id="pinata（IPFS视频中所说类似图床）地址："><a href="#pinata（IPFS视频中所说类似图床）地址：" class="headerlink" title="pinata（IPFS视频中所说类似图床）地址："></a>pinata（IPFS视频中所说类似图床）地址：</h6><p><a href="https://app.pinata.cloud/pinmanager">https://app.pinata.cloud/pinmanager</a></p><h6 id="polygon测试撸币地址："><a href="#polygon测试撸币地址：" class="headerlink" title="polygon测试撸币地址："></a>polygon测试撸币地址：</h6><p><a href="https://faucet.polygon.technology/">https://faucet.polygon.technology/</a></p><h6 id="MATIC测试区块链网络：（小狐狸配置-gt-设置-gt-网络-gt-添加网络）"><a href="#MATIC测试区块链网络：（小狐狸配置-gt-设置-gt-网络-gt-添加网络）" class="headerlink" title="MATIC测试区块链网络：（小狐狸配置-&gt;设置-&gt;网络-&gt;添加网络）"></a>MATIC测试区块链网络：（小狐狸配置-&gt;设置-&gt;网络-&gt;添加网络）</h6><blockquote><h6 id="网络名称-Mumbai-TestNet"><a href="#网络名称-Mumbai-TestNet" class="headerlink" title="网络名称: Mumbai TestNet"></a>网络名称: Mumbai TestNet</h6><h6 id="新增-RPC-URL-https-rpc-mumbai-maticvigil-com"><a href="#新增-RPC-URL-https-rpc-mumbai-maticvigil-com" class="headerlink" title="新增 RPC URL: https://rpc-mumbai.maticvigil.com/"></a>新增 RPC URL: <a href="https://rpc-mumbai.maticvigil.com/">https://rpc-mumbai.maticvigil.com/</a></h6><h6 id="链-ID-80001"><a href="#链-ID-80001" class="headerlink" title="链 ID: 80001"></a>链 ID: 80001</h6><h6 id="Currency-Symbol-MATIC"><a href="#Currency-Symbol-MATIC" class="headerlink" title="Currency Symbol: MATIC"></a>Currency Symbol: MATIC</h6><h6 id="区块浏览器-https-mumbai-explorer-matic-today"><a href="#区块浏览器-https-mumbai-explorer-matic-today" class="headerlink" title="区块浏览器: https://mumbai-explorer.matic.today/"></a>区块浏览器: <a href="https://mumbai-explorer.matic.today/">https://mumbai-explorer.matic.today/</a></h6></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> NFT </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> NFT </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>通过机器学习世界名画制作NFT朋克头像</title>
-      <link href="/NFT/2022/01/13/%E9%80%9A%E8%BF%87%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%96%E7%95%8C%E5%90%8D%E7%94%BB%E5%88%B6%E4%BD%9CNFT%E6%9C%8B%E5%85%8B%E5%A4%B4%E5%83%8F.html"/>
-      <url>/NFT/2022/01/13/%E9%80%9A%E8%BF%87%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%96%E7%95%8C%E5%90%8D%E7%94%BB%E5%88%B6%E4%BD%9CNFT%E6%9C%8B%E5%85%8B%E5%A4%B4%E5%83%8F.html</url>
-      
-        <content type="html"><![CDATA[<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/world-cup-3.gif" /></a></p><h2 id="通过机器学习世界名画制作NFT朋克头像"><a href="#通过机器学习世界名画制作NFT朋克头像" class="headerlink" title="通过机器学习世界名画制作NFT朋克头像"></a>通过机器学习世界名画制作NFT朋克头像</h2><iframe width=800 height=500 src="//player.bilibili.com/player.html?aid=633197040&bvid=BV1db4y1y7TB&cid=414373305&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h6 id="Master-Art-Punk-Github仓库地址：https-github-com-Jianghuchengphilip-Master-Art-Punk"><a href="#Master-Art-Punk-Github仓库地址：https-github-com-Jianghuchengphilip-Master-Art-Punk" class="headerlink" title="Master-Art-Punk Github仓库地址：https://github.com/Jianghuchengphilip/Master-Art-Punk"></a>Master-Art-Punk Github仓库地址：<a href="https://github.com/Jianghuchengphilip/Master-Art-Punk">https://github.com/Jianghuchengphilip/Master-Art-Punk</a></h6>]]></content>
-      
-      
-      <categories>
-          
-          <category> NFT </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> NFT </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Generate-NFT软件教学</title>
-      <link href="/NFT/2022/01/13/Generate-NFT%E8%BD%AF%E4%BB%B6%E6%95%99%E5%AD%A6.html"/>
-      <url>/NFT/2022/01/13/Generate-NFT%E8%BD%AF%E4%BB%B6%E6%95%99%E5%AD%A6.html</url>
-      
-        <content type="html"><![CDATA[<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/world-cup-1.gif" /></a></p><h2 id="Generate-NFT软件教学"><a href="#Generate-NFT软件教学" class="headerlink" title="Generate-NFT软件教学"></a>Generate-NFT软件教学</h2><iframe width=800 height=500  src="//player.bilibili.com/player.html?aid=422904306&bvid=BV1g3411e7Mx&cid=479411249&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h6 id="Generate-NFT软件Github仓库地址：https-github-com-Jianghuchengphilip-Generate-NFT-releases-tag-Generate-NFT-v1-0"><a href="#Generate-NFT软件Github仓库地址：https-github-com-Jianghuchengphilip-Generate-NFT-releases-tag-Generate-NFT-v1-0" class="headerlink" title="Generate-NFT软件Github仓库地址：https://github.com/Jianghuchengphilip/Generate-NFT/releases/tag/Generate-NFT-v1.0"></a>Generate-NFT软件Github仓库地址：<a href="https://github.com/Jianghuchengphilip/Generate-NFT/releases/tag/Generate-NFT-v1.0">https://github.com/Jianghuchengphilip/Generate-NFT/releases/tag/Generate-NFT-v1.0</a></h6><h6 id="百度网盘：链接：https-pan-baidu-com-s-1ASOAxi8SYEVf-z5jrWSz8g-提取码：wgt7"><a href="#百度网盘：链接：https-pan-baidu-com-s-1ASOAxi8SYEVf-z5jrWSz8g-提取码：wgt7" class="headerlink" title="百度网盘：链接：https://pan.baidu.com/s/1ASOAxi8SYEVf_z5jrWSz8g 提取码：wgt7"></a>百度网盘：链接：<a href="https://pan.baidu.com/s/1ASOAxi8SYEVf_z5jrWSz8g">https://pan.baidu.com/s/1ASOAxi8SYEVf_z5jrWSz8g</a> 提取码：wgt7</h6>]]></content>
-      
-      
-      <categories>
-          
-          <category> NFT </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> NFT </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>保姆级教你如何用Python批量生产NFT(可设置稀有度版)</title>
-      <link href="/NFT/2022/01/13/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E7%94%A8Python%E6%89%B9%E9%87%8F%E7%94%9F%E4%BA%A7NFT-%E5%8F%AF%E8%AE%BE%E7%BD%AE%E7%A8%80%E6%9C%89%E5%BA%A6%E7%89%88.html"/>
-      <url>/NFT/2022/01/13/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E7%94%A8Python%E6%89%B9%E9%87%8F%E7%94%9F%E4%BA%A7NFT-%E5%8F%AF%E8%AE%BE%E7%BD%AE%E7%A8%80%E6%9C%89%E5%BA%A6%E7%89%88.html</url>
-      
-        <content type="html"><![CDATA[<p align="center"><a href="http://philipjhc.us/"><img width="80%" src="/images/world-cup-2.gif" /></a></p><h2 id="保姆级教你如何用Python批量生产NFT-可设置稀有度版"><a href="#保姆级教你如何用Python批量生产NFT-可设置稀有度版" class="headerlink" title="保姆级教你如何用Python批量生产NFT(可设置稀有度版)"></a>保姆级教你如何用Python批量生产NFT(可设置稀有度版)</h2><iframe width=800 height=500 src="//player.bilibili.com/player.html?aid=977996743&bvid=BV1C44y1j7xg&cid=477831649&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h6 id="Generate-NFT-Github仓库地址：https-github-com-Jianghuchengphilip-Generate-NFT"><a href="#Generate-NFT-Github仓库地址：https-github-com-Jianghuchengphilip-Generate-NFT" class="headerlink" title="Generate-NFT Github仓库地址：https://github.com/Jianghuchengphilip/Generate-NFT"></a>Generate-NFT Github仓库地址：<a href="https://github.com/Jianghuchengphilip/Generate-NFT">https://github.com/Jianghuchengphilip/Generate-NFT</a></h6><h6 id="百度云盘分享网址：https-pan-baidu-com-s-1oNR2Psy0heU8yIPTt7w2qQ-提取码：ntz2"><a href="#百度云盘分享网址：https-pan-baidu-com-s-1oNR2Psy0heU8yIPTt7w2qQ-提取码：ntz2" class="headerlink" title="百度云盘分享网址：https://pan.baidu.com/s/1oNR2Psy0heU8yIPTt7w2qQ    提取码：ntz2"></a>百度云盘分享网址：<a href="https://pan.baidu.com/s/1oNR2Psy0heU8yIPTt7w2qQ">https://pan.baidu.com/s/1oNR2Psy0heU8yIPTt7w2qQ</a>    提取码：ntz2</h6>]]></content>
-      
-      
-      <categories>
-          
-          <category> NFT </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> NFT </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>NFT</tag>
+      </tags>
+  </entry>
 </search>
